@@ -1,0 +1,351 @@
+/* ************************************************************* */
+/* Universal style                                               */
+/* ************************************************************* */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family:'Raleway' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+/* ************************************************************* */
+/* Menu                                                          */
+/* ************************************************************* */
+#menu{
+    background-color: #42000C;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: white;
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #990000;
+}
+
+/* ************************************************************* */
+/* Header                                                        */
+/* ************************************************************* */
+
+#header{
+    padding: 20px 0px 10px 0;
+    background-image: linear-gradient( 52.1deg, rgba(103,12,12,1) 34.6%, rgba(249,45,45,1) 94.1% );
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1lem;
+    font-size: 44px;
+    color: white;
+}
+
+#header p{
+    letter-spacing: 0.1lem;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* ************************************************************* */
+/* Banner                                                        */
+/* ************************************************************* */
+
+#banner{
+    height: 500px;
+}
+
+#banner img{
+    width: 100%;
+    height: 500px;
+}
+
+
+/* ************************************************************* */
+/* Page                                                          */
+/* ************************************************************* */
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3D000B;
+}
+
+#page h3{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3D000B;
+    float: right;    
+}
+
+tr{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/*content*/
+
+#content{ 
+    float: left;
+    width: 70%;
+}
+
+/*sidebar */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/* lists */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/* ************************************************************* */
+/* footer                                                        */
+/* ************************************************************* */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-image: radial-gradient( circle 953px at 3% 8.3%, rgba(202,0,24,1) 0%, rgba(0,0,0,1) 81.8% );
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* ************************************************************* */
+/* contact                                                       */
+/* ************************************************************* */
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.contact .contact-us{
+    max-width: 600px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact .contact-us p{
+    font-size: 36px;
+    color: #42000C;
+}
+
+.contact .contact-us h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #42000C;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #990000;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #42000C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+/* ************************************************************* */
+/* copyright                                                     */
+/* ************************************************************* */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #42000C;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+/* ************************************************************* */
+/* gallery                                                       */
+/* ************************************************************* */
+
+
+
+#gallery img{
+	width:120px;
+	margin:12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transforn 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in ;
+}
+
+#gallery img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }    
